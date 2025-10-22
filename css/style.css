@@ -1,0 +1,95 @@
+
+.bg-orange
+ { background-color: #ed7c3b; }
+
+.text-white {
+  color: #ffffff; 
+}
+
+.indent-first-line {
+  text-indent: 60px; /*เยื้องบรรทัดแรก 30 px*/
+}
+
+
+.text-center-div {
+    text-align: center;    /*จัดให้อยู่กลางแนวนอน*/
+    display: flex;        /* flexboxจัดแนวเนื้อหา*/
+    flex-direction: column; 
+    justify-content: center; /* จัดให้อยู่กลางแนวตั้ง (ถ้าความสูงกำหนดไว้) */
+    align-items: center;     /* จัดให้อยู่กลางแนวนอน */ }
+
+  .bar {
+  width: 100%;
+  background-color: #1a1a1a;
+  color: #ffffff;
+  border: none;
+  border-radius: 0;
+  margin: 0;
+  padding: 0.5rem 1rem;
+}
+
+.nav-link {
+  color: #ffffff !important;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.ibm-plex-sans-thai-looped-regular {
+  font-family: "IBM Plex Sans Thai Looped", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+.noto-sans-thai {
+  font-family: "Noto Sans Thai", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+.my-text {
+  color: #ed7c3b; /* สีฟ้า */
+}
+
+.carousel {
+  transition: transform 0.6s ease-in-out;
+}
+
+
+
+/* ปุ่มเลื่อนแบบกำหนดเอง */
+.custom-control {
+  width: 60px;
+  height: 60px;
+  background-color: #000;
+  border: none;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.8;
+}
+
+.carousel-control-prev.custom-control {
+  left: 10px;
+}
+
+.carousel-control-next.custom-control {
+  right: 10px;
+}
+
+.custom-arrow {
+  font-size: 32px;
+  color: #f8a100; /* สีส้มแบบ Haikyuu */
+  font-weight: bold;
+}
+
